@@ -1,31 +1,30 @@
-Hi, welcome to my GitHub!
+# Hello, welcome to my GitHub!
 
-I'm firstfu, a passionate software engineer currently focusing on full-stack development.
+I'm **firstfu**, an engineer passionate about software development, currently focused on full-stack development.
 
-About Me
+## About Me
 
-🔭 I'm currently working on Blood Pressure Manager.
-🌱 I'm actively learning and applying Supabase to continually improve my technical skills.
-👯 I'm looking forward to collaborating with like-minded partners to create interesting projects.
-💬 Feel free to discuss any technical topics with me through Issues or Pull Requests!
-📫 You can reach me at firefirstfu@gmail.com.
+- 🔭 **Currently Developing:** *Blood Pressure Manager*
+- 🌱 **Learning:** Using **Supabase** to continuously enhance my technical skills.
+- 👯 **Collaboration:** Eager to work with like-minded partners on exciting projects.
+- 💬 **Discussion:** Feel free to engage with me via **Issues or Pull Requests** for any technical discussions.
+- 📫 **Contact:** [firefirstfu@gmail.com](mailto:firefirstfu@gmail.com)
 
-Skills & Tools
+## Skills & Tools
 
-Programming Languages: JavaScript, Python
+- **Programming Languages:** JavaScript, Python  
+- **Front-end Technologies:** React, Vue, HTML, CSS  
+- **Back-end Technologies:** Node.js, Express  
+- **Other Tools:** Supabase
 
-Frontend Technologies: React, Vue, HTML, CSS
+## GitHub Stats
 
-Backend Technologies: Node.js, Express
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=firstfu&show_icons=true)
 
-Other Tools: Supabase
+## Some Fixed Projects
 
-GitHub Stats
+- **Blood Pressure Manager**
 
-GitHub Stats
+---
 
-Selected Projects
-
-Blood Pressure Manager
-
-Thanks for visiting my profile! Looking forward to learning, growing, and collaborating with you!
+Thank you for taking the time to browse my personal homepage. I hope to have the opportunity to learn, grow, and collaborate with you!
