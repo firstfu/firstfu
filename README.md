@@ -17,9 +17,6 @@ I'm **firstfu**, an engineer passionate about software development, currently fo
 - **Back-end Technologies:** Node.js, Express  
 - **Other Tools:** Supabase
 
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=firstfu&show_icons=true)
 
 ## Some Fixed Projects
 
