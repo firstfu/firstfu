@@ -8,14 +8,14 @@
 <!-- ───────────── 頁首橫幅 ───────────── -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&section=header&text=firstfu&fontSize=72&fontColor=ffffff&fontAlignY=36&desc=AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%A8%E7%AB%AF%E9%96%8B%E7%99%BC%E8%80%85%20%C2%B7%20Full-Stack%20Developer&descSize=18&descAlignY=58&color=0:7aa2f7,50:bb9af7,100:ff9e64" alt="firstfu banner" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&section=header&text=firstfu&fontSize=72&fontColor=ffffff&fontAlignY=36&desc=AI-Powered%20Full-Stack%20Developer%20%C2%B7%20macOS%20Apps&descSize=18&descAlignY=58&color=0:7aa2f7,50:bb9af7,100:ff9e64" alt="firstfu banner" />
 
 <!-- 打字動畫：輪播自我介紹 -->
 <a href="https://github.com/firstfu">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1400&color=7AA2F7&center=true&vCenter=true&width=520&lines=Crafting+with+AI+Agents+%F0%9F%A4%96;Building+AI+Applications+%E2%9A%A1;Shipping+native+macOS+apps+%F0%9F%8D%8E;Automating+the+future+with+code+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
-<sub>用 AI agent 協作，把想法做成真正能用的產品 ✨</sub>
+<sub>Turning ideas into products people actually use, with AI agents ✨</sub>
 
 <br/><br/>
 
@@ -28,32 +28,30 @@
 
 <br/>
 
-<!-- ───────────── 關於我 ───────────── -->
-## 👋 關於我 · About Me
+<!-- ───────────── About ───────────── -->
+## 👋 About Me
 
-嗨，我是 **firstfu**，來自台灣的全端開發者。從 2015 年起在 GitHub 寫程式，現在的日常是**與 AI agent（Claude Code、Codex）配對開發**，把點子快速變成能真正上線使用的產品——從 macOS 原生小工具到 Web 應用。
-
-<sub>Hi, I'm firstfu — a full-stack developer from Taiwan. I pair-program with AI agents every day to turn ideas into shipped products, from native macOS utilities to web apps.</sub>
+Hi, I'm **firstfu** — a full-stack developer from Taiwan, building on GitHub since 2015. These days I **pair-program with AI agents (Claude Code, Codex)** every day to turn ideas into products that actually ship, from native macOS utilities to web apps.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🔭 正在做** · *Now building*<br/>
-macOS 原生工具：[Liftoff](https://github.com/firstfu/Liftoff)、[DockLens](https://github.com/firstfu/DockLens-app)（Swift）
+**🔭 Now building**<br/>
+Native macOS utilities in Swift — [Liftoff](https://github.com/firstfu/Liftoff) & [DockLens](https://github.com/firstfu/DockLens-app)
 
-**🤖 工作方式** · *Workflow*<br/>
-與 AI agent 協作開發，用 Claude Code、Codex 加速每一次交付
+**🤖 Workflow**<br/>
+Pair-programming with AI agents (Claude Code, Codex) to ship faster
 
 </td>
 <td width="50%" valign="top">
 
-**🌱 探索中** · *Exploring*<br/>
-Agent 工具鏈、Supabase、邊緣部署
+**🌱 Exploring**<br/>
+Agent tooling, Supabase, and edge deployments
 
-**📫 聯絡我** · *Contact*<br/>
+**📫 Contact**<br/>
 [firefirstfu@gmail.com](mailto:firefirstfu@gmail.com)<br/>
-歡迎合作討論，也可以直接開 Issue / PR
+Open to collaboration — or start a thread via Issues / PRs
 
 </td>
 </tr>
