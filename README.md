@@ -76,39 +76,43 @@ Open to collaboration — or start a thread via Issues / PRs
 <!-- ───────────── 精選專案 ───────────── -->
 ## 🚀 Featured Projects
 
+<!-- description_lines_count=3 讓兩張卡高度一致（各 150），左右才會對稱 -->
 <div align="center">
   <a href="https://github.com/firstfu/Liftoff">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=firstfu&repo=Liftoff&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&icon_color=bb9af7" align="top" alt="Liftoff" />
+    <img width="49%" align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=firstfu&repo=Liftoff&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&icon_color=bb9af7&description_lines_count=3" alt="Liftoff" />
   </a>
   <a href="https://github.com/firstfu/DockLens-app">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=firstfu&repo=DockLens-app&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&icon_color=bb9af7" align="top" alt="DockLens" />
+    <img width="49%" align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=firstfu&repo=DockLens-app&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&icon_color=bb9af7&description_lines_count=3" alt="DockLens" />
   </a>
+
+  <sub>🌐 <a href="https://firstfu.github.io/Liftoff/">Liftoff website</a> &nbsp;·&nbsp; 🌐 <a href="https://firstfu.github.io/DockLens-app/">DockLens website</a></sub>
 </div>
 
-| Project | What it does | Stack |
-| :-- | :-- | :-- |
-| 🚀 [**Liftoff**](https://github.com/firstfu/Liftoff) · [site](https://firstfu.github.io/Liftoff/) | The Launchpad macOS 26 took away — back, faster, with live window previews | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) |
-| 🔍 [**DockLens**](https://github.com/firstfu/DockLens-app) · [site](https://firstfu.github.io/DockLens-app/) | Hover a Dock icon to see live thumbnails of its windows — free & open source | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) |
-| 🧮 [**json-tools**](https://github.com/firstfu/json-tools) | Web-based JSON editor with an intuitive interface and advanced tooling | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| 🎨 [**gradientHunter**](https://github.com/firstfu/gradientHunter) | Chrome extension that captures page gradients and generates the CSS | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+<!-- 只留兩欄：手機窄螢幕下三欄會被擠成一字一行 -->
+| More projects | What it does |
+| :-- | :-- |
+| 🧮 [**json-tools**](https://github.com/firstfu/json-tools) | Web-based JSON editor with an intuitive interface and advanced tooling |
+| 🎨 [**gradientHunter**](https://github.com/firstfu/gradientHunter) | Chrome extension that captures page gradients and generates the CSS |
 
 <!-- ───────────── 數據圖表 ───────────── -->
 ## 📊 GitHub Stats
 
+<!-- 這四張卡片尺寸都是 340x200，兩兩並排才會完全對稱 -->
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=firstfu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&count_private=true&include_all_commits=true&rank_icon=github" align="top" alt="stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=firstfu&layout=donut&theme=tokyonight&hide_border=true&bg_color=1a1b27&langs_count=8" align="top" alt="top languages" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=firstfu&theme=tokyonight" alt="stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=firstfu&theme=tokyonight" alt="repos per language" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=firstfu&theme=tokyonight" alt="most commit language" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=firstfu&theme=tokyonight&utcOffset=8" alt="productive time (UTC+8)" />
 </div>
 
 <div align="center">
   <img width="100%" src="https://streak-stats.demolab.com/?user=firstfu&theme=tokyonight&hide_border=true&background=1a1b27&ring=7aa2f7&fire=ff9e64&currStreakLabel=bb9af7" alt="streak" />
 </div>
 
-### 📈 Activity & Rhythm
+### 📈 Contribution Overview
 
 <div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=firstfu&theme=tokyonight" align="top" alt="profile details" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=firstfu&theme=tokyonight&utcOffset=8" align="top" alt="productive time (UTC+8)" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=firstfu&theme=tokyonight" alt="profile details" />
 </div>
 
 ### 🐍 Contribution Snake
