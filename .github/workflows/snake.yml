@@ -1,0 +1,33 @@
+# 每天產生一次 contribution 貪吃蛇動畫，輸出到 output 分支，供 README 引用。
+# 需要 contents: write 權限才能推送 output 分支。
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 每天 UTC 00:00
+  workflow_dispatch:       # 允許手動觸發（首次部署後先手動跑一次）
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # 把產生的 SVG 推到 output 分支（不污染 main）
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
