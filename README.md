@@ -97,12 +97,12 @@ Open to collaboration — or start a thread via Issues / PRs
 <!-- ───────────── 數據圖表 ───────────── -->
 ## 📊 GitHub Stats
 
-<!-- 這四張卡片尺寸都是 340x200，兩兩並排才會完全對稱 -->
+<!-- 這四張卡片尺寸都是 340x200，兩兩並排才會完全對稱；由 .github/workflows/cards.yml 每天更新 -->
 <div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=firstfu&theme=tokyonight" alt="stats" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=firstfu&theme=tokyonight" alt="repos per language" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=firstfu&theme=tokyonight" alt="most commit language" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=firstfu&theme=tokyonight&utcOffset=8" alt="productive time (UTC+8)" />
+  <img width="49%" src="https://raw.githubusercontent.com/firstfu/firstfu/cards/3-stats.svg" alt="stats" />
+  <img width="49%" src="https://raw.githubusercontent.com/firstfu/firstfu/cards/1-repos-per-language.svg" alt="repos per language" />
+  <img width="49%" src="https://raw.githubusercontent.com/firstfu/firstfu/cards/2-most-commit-language.svg" alt="most commit language" />
+  <img width="49%" src="https://raw.githubusercontent.com/firstfu/firstfu/cards/4-productive-time.svg" alt="productive time (UTC+8)" />
 </div>
 
 <div align="center">
@@ -112,7 +112,7 @@ Open to collaboration — or start a thread via Issues / PRs
 ### 📈 Contribution Overview
 
 <div align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=firstfu&theme=tokyonight" alt="profile details" />
+  <img width="100%" src="https://raw.githubusercontent.com/firstfu/firstfu/cards/0-profile-details.svg" alt="profile details" />
 </div>
 
 ### 🐍 Contribution Snake
