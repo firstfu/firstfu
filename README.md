@@ -63,7 +63,7 @@ Open to collaboration — or start a thread via Issues / PRs
 <div align="center">
 
 **Languages**<br/>
-<img src="https://skillicons.dev/icons?i=ts,js,py,swift,dart,bash&theme=dark" alt="languages" />
+<img src="https://skillicons.dev/icons?i=ts,js,py,go,swift,dart,bash&theme=dark" alt="languages" />
 
 **Front-end**<br/>
 <img src="https://skillicons.dev/icons?i=react,nextjs,vue,tailwind,html,css,flutter&theme=dark" alt="frontend" />
