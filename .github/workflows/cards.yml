@@ -1,0 +1,40 @@
+# 每天自動產生 GitHub 統計卡片（stats、語言、時段、貢獻總覽），
+# 輸出到 cards 分支，README 直接引用自己 repo 的檔案，不再依賴第三方伺服器。
+# Token：優先用自訂 PAT（SUMMARY_GITHUB_TOKEN），沒設定就退回內建 GITHUB_TOKEN。
+name: Generate Profile Cards
+
+on:
+  schedule:
+    - cron: "30 0 * * *"   # 每天 UTC 00:30（台灣 08:30），錯開 snake 的 00:00
+  workflow_dispatch:        # 允許手動觸發
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/cards.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      # AUTO_PUSH 關閉：由下一步統一推到 cards 分支，不污染 main
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 8          # 生產力時段以台灣時間（UTC+8）計算
+          THEME: tokyonight      # 只產生單一主題，與 README 配色一致
+          AUTO_PUSH: false
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: cards
+          build_dir: profile-summary-card-output/tokyonight
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
